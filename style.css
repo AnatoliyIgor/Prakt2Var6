@@ -1,0 +1,94 @@
+ *{
+font-family: 'Roboto', sans-serif;
+}
+*:focus{
+outline: none;
+}
+h2{
+ margin:5px;
+ color:white;
+}
+form{
+ background-image: url(фон.jpg);
+ width: 200px;
+ padding: 5px 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"]{
+ margin: 5px;
+ padding: 7px;
+ width: 190px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+  background:#20211b;
+  color: #fff;
+}
+input[type="radio"]{
+	margin: 5px;
+}
+label{
+   color:#fff;
+}
+option{
+	color:#000;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"].focus,
+input[type="password"].focus,
+input[type="email"].focus,
+input[type="number"].focus,
+input [type="checkbox"].focus
+
+{
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder ,
+input [type="checkbox"]::-webkit-input-placeholder {
+   color: #575855;
+} 
+input[type="text"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="number"]::-moz-placeholder,
+input [type="checkbox"]::-moz-placeholder {
+   color: #d3e2e7;
+}
+select{
+  margin: 5px;
+  padding: 7px;
+  width: 190px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+  background: linear-gradient(to top left, #4b6a7c, #314953);
+  color: #fff;
+}
+select:hover{
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+.ghost-button {
+  border-radius:50px;
+  background: #fbda6a;
+  margin-left:5px;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 13px;
+  font-weight:bold;
+  color: #bd2a22;
+  text-align: left;
+  
+}
+.ghost-button:hover,
+.ghost-button:active {
+  text-decoration: none;
+}
